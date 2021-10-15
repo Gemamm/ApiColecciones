@@ -8,6 +8,9 @@ public class Test {
     public static void main(String[] args) {
         Generica<Integer> objInt = new Generica(15);
         objInt.obtenerTipo();
+        
+        Generica<String> objstring = new Generica("Gema");
+        objstring.obtenerTipo();
     }
     
 }
